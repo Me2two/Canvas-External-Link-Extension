@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Canvas External Link",
+	"version": "1.0",
+	"description": "Adds an Extra Class to link outside of canvas.",
+	"content_scripts": [{
+		"js": ["classCard.js"],
+		"matches": ["https://canvas.asu.edu/"]
+	}]
+}
